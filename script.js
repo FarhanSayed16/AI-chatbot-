@@ -21,3 +21,25 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.container p.delayed').style.visibility = 'visible';
     }, 3000);
 });
+function downloadPDF() {
+    // Replace 'example.pdf' with the path to your PDF file
+    var pdfUrl = 'Visualization.pdf';
+    
+    // Create an invisible anchor element
+    var a = document.createElement('a');
+    a.style.display = 'none';
+    a.href = pdfUrl;
+    
+    // Set the filename to be downloaded as
+    a.download = 'chatbot_documentation.pdf';
+    
+    // Append the anchor to body
+    document.body.appendChild(a);
+    
+    // Trigger the click event of the anchor
+    a.click();
+    
+    // Clean up
+    document.body.removeChild(a);
+  }
+
