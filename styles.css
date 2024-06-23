@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e4d;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(128, 0, 128, 0.7);
+    animation: borderColorChange 3s infinite;
+    max-width: 90%;
+}
+
+@keyframes borderColorChange {
+    0% { border: 1px solid #9400d3; }
+    25% { border: 1px solid #4b0082; }
+    50% { border: 1px solid #8a2be2; }
+    75% { border: 1px solid #dda0dd; }
+    100% { border: 1px solid #9400d3; }
+}
+
+.container h1, .container p {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid #ffffff;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #ffffff; }
+}
+
+.container p.delayed {
+    visibility: hidden;
+    animation: typing 3.5s steps(30, end) 3s forwards, blink-caret .75s step-end infinite 3s;
+}
+
+@keyframes delayedFadeIn {
+    from { visibility: hidden; }
+    to { visibility: visible; }
+}
+
+.chat-button {
+    background-color: #6a0dad;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.chat-button:hover {
+    background-color: #4b0082;
+    transform: scale(1.05);
+}
+
+.info-text {
+    margin-top: 20px;
+    font-size: 1rem;
+    max-width: 90%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container h1, .container p {
+        font-size: 1.2rem;
+    }
+
+    .chat-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .info-text {
+        font-size: 0.9rem;
+    }
+}
