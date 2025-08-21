@@ -61,8 +61,10 @@ Cortana-AI-Chatbot/
 ## 📸 Screenshots
 
 ![Cortana AI Chatbot Preview](#)
-*<img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/5770af17-288b-47dc-81f8-35ebe5e37eb9" />
-*
+<img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/5770af17-288b-47dc-81f8-35ebe5e37eb9" />
+[chatbot_documentation (1).pdf](https://github.com/user-attachments/files/21925966/chatbot_documentation.1.pdf)
+
+
 
 ---
 
