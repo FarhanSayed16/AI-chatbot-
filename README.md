@@ -85,8 +85,8 @@ Contributions are welcome! Feel free to open issues or submit pull requests to e
 
 ## 📧 Contact
 
-Connect with me on [LinkedIn](#https://www.linkedin.com/in/farhansayed16/) or reach out via [Email](farhansayed54@example.com).
-
+Connect with me on [LinkedIn]( #https://www.linkedin.com/in/farhansayed16/) or reach out via [Email](farhansayed54@example.com).
+https://www.linkedin.com/in/farhansayed16/
 ---
 
 ⭐ **Show some love by starring this repo if you find it helpful!**
