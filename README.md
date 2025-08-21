@@ -61,7 +61,8 @@ Cortana-AI-Chatbot/
 ## 📸 Screenshots
 
 ![Cortana AI Chatbot Preview](#)
-*(Add a screenshot or GIF of the chatbot in action)*
+*<img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/5770af17-288b-47dc-81f8-35ebe5e37eb9" />
+*
 
 ---
 
@@ -82,7 +83,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests to e
 
 ## 📧 Contact
 
-Connect with me on [LinkedIn](#) or reach out via [Email](mailto:youremail@example.com).
+Connect with me on [LinkedIn](#) or reach out via [Email](farhansayed54@example.com).
 
 ---
 
